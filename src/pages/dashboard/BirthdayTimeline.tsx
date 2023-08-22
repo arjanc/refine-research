@@ -30,7 +30,7 @@ const BirthDayTimeline = () => {
   }
 
   return (
-    <Card title="Upcomming Birthdays">
+    <Card title="Upcoming Birthdays">
       <Timeline items={users} />
     </Card>
   );
