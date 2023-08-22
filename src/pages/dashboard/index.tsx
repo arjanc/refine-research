@@ -10,9 +10,13 @@ export const Dashboard: React.FC = () => {
       <Row>
         <Col span={24}><Title >Dashboard</Title></Col>
       </Row>
-      <Row gutter={16}>
-        <Col span={12}><Top10Users /></Col>
-        <Col span={12}><BirthDayTimeline /></Col>
+      <Row gutter={[16, 24]}>
+          <Col xs={24} md={12}>
+              <Top10Users />
+          </Col>
+          <Col xs={24} md={12}>
+            <BirthDayTimeline />
+          </Col>
       </Row>
     </>
   )
